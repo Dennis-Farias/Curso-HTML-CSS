@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fonte que vai ficar no site inteiro */ 
+}
+
+body {
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A7);
+    /* Criando degradê para o fundo do site */
+}
+
+main {
+    background-color: white;
+    /* O texto ficou no <main>, estou colocando o fundo branco para o texto */
+    border-radius: 10px;
+    /* Criando borda */
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+    /* Criando sombra */
+    width: 600px;
+    /* Tamanho do "bloco" de texto*/
+    padding: 10px;
+    /* Espaço depois do texto, sobra */
+    margin: auto;
+    /* O "bloco" ficar no centro */
+}
+
+h1 {
+    color: #F39209;
+    /* Cor da letra do h1 */
+    text-align: center;
+    /* Ficar alinhado no centro */
+    text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.726);
+    /* Sombra, parâmetros: pro lado, pra baixo, quantidade e cor */
+}
+
+h2 {
+    color: #125189;
+    /* Cor da letra do h2 */
+}
+
+p {
+    text-align: justify;
+    /* Os paragrafos ficaram justificados */
+}
