@@ -8,12 +8,26 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            /* O navegador vai tentar primeiro a fonte Arial, depois a Helvetica e depois qualquer uma que seja sem serifa */
+            
+            font-family: 1em;
+            /* Medidas absolutas
+            cm, mm, in(polegada), px(pixels), pt(tamanho que tem no word), pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            O recomendado usar é px ou em
+            O padrão de um site(se eu não colocar nada) é 16px 
+            em é uma medida referencial em relação ao tamanho original da fonte
+            ex: 2em = 32px, 0.5em = 8px
+            */
         }
-        /* O navegador vai tentar primeiro a fonte Arial, depois a Helvetica e depois qualquer uma que seja sem serifa */
         h1, h2{
             font-family: 'Times New Roman', Times, serif;
+            /* O navegador vai tentar primeiro a Times New Roman, depois a Times e depois qualquer uma que sejá serifada  */
         }
-        /* O navegador vai tentar primeiro a Times New Roman, depois a Times e depois qualquer uma que sejá serifada  */
     </style>
 </head>
 <body>
