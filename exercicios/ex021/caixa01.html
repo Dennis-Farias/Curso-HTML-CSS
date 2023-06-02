@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Caixas</title>
     <style>
-        h1 {
+        h1 { /* box-level */
             background-color: lightgray;
-            height: 300px;
-            width: 300px;
-            border-width: 10px;
-            border-style: solid;
-            border-color: darkslategray;
 
-            padding-top: 10px;
-            padding-right: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
+            height: 300px;
+            /* altura */
+            width: 300px;
+            /* largura */
+
+            border: 10px solid darkslategray;
+            /* simplificando, ordem: tamanho, estilo e cor */
+
+            padding: 10px;
+            /* simplificando, ordem: top, right, bottom, left. Como eu coloquei que todos tem o mesmo tamanho, só preciso colocar uma vez, poderia ser: 10px 20p 5px 10px. Se você colocar só dois valores: 10px 20px, o valor de cima e baixo vai ser 10px e o valor da direita e esquerda vai ser 20px */
+
+            margin: 20px auto 40px auto;
+            /* configurando margem de cima, direita, baixo e esquerda. O da direita e esquerda é auto para a caixa ficar centralizada */
+
+            outline: 5px dashed salmon;
+            /* tamanho, estilo e cor */
         }
 
-        a {
+        a { /* inlive-level */
             border-width: 10px;
             border-style: solid;
             border-color: red;
